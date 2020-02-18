@@ -1,0 +1,554 @@
+html
+{
+    background-color: slategray;
+}
+
+#sviDisplay-i
+{
+    display: inline-flex;
+}
+
+#prviDisplay
+{
+    width: 145px;
+    height: 280px;
+    padding: 15px;
+    position: relative;
+}
+
+#drugiDisplay
+{
+    width: 145px;
+    height: 280px;
+    padding: 15px;
+    position: relative;
+}
+
+#kockice
+{
+    position: relative;
+    width: 20px;
+    height: 280px;
+}
+
+#kockica1
+{
+    position: absolute;
+    top: 140px;
+    left: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+#kockica2
+{
+    position: absolute;
+    top: 160px;
+    right: 4px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+#treciDisplay
+{
+    width: 145px;
+    height: 280px;
+    padding: 15px;
+    position: relative;
+}
+
+#cetvrtiDisplay
+{
+    width: 145px;
+    height: 280px;
+    padding: 15px;
+    position: relative;
+}
+
+#prvi1
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+#drugi1
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 82px;
+    left: -43px;
+}
+
+#treci1
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 83px;
+    left: 93px;
+}
+
+#cetvrti1
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#peti1
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: -43px;
+}
+
+#sesti1
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: 93px;
+}
+
+#sedmi1
+{
+    
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 284px;
+    left: 25px;
+}
+
+#prvi2
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+#drugi2
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 82px;
+    left: -43px;
+}
+
+#treci2
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 83px;
+    left: 93px;
+}
+
+#cetvrti2
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#peti2
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: -43px;
+}
+
+#sesti2
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: 93px;
+}
+
+#sedmi2
+{
+    
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 284px;
+    left: 25px;
+}
+
+#prvi3
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+#drugi3
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 82px;
+    left: -43px;
+}
+
+#treci3
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 83px;
+    left: 93px;
+}
+
+#cetvrti3
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#peti3
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: -43px;
+}
+
+#sesti3
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: 93px;
+}
+
+#sedmi3
+{
+    
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 284px;
+    left: 25px;
+}
+
+#prvi4
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+#drugi4
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 82px;
+    left: -43px;
+}
+
+#treci4
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 83px;
+    left: 93px;
+}
+
+#cetvrti4
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#peti4
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: -43px;
+}
+
+#sesti4
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: 93px;
+}
+
+#sedmi4
+{
+    
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 284px;
+    left: 25px;
+}
+
+#prvi5
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+#drugi5
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 82px;
+    left: -43px;
+}
+
+#treci5
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 83px;
+    left: 93px;
+}
+
+#cetvrti5
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#peti5
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: -43px;
+}
+
+#sesti5
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: 93px;
+}
+
+#sedmi5
+{
+    
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 284px;
+    left: 25px;
+}
+
+#prvi6
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+#drugi6
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 82px;
+    left: -43px;
+}
+
+#treci6
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 83px;
+    left: 93px;
+}
+
+#cetvrti6
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#peti6
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: -43px;
+}
+
+#sesti6
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: 93px;
+}
+
+#sedmi6
+{
+    
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 284px;
+    left: 25px;
+}
