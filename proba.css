@@ -1,0 +1,785 @@
+#glavni
+{
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    margin: auto;
+}
+
+#butoni
+{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+button
+{
+    color: white;
+    background-color: black;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#sviDisplay-i
+{
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    background-color: black;
+    filter: brightness(0.5);
+}
+
+#prviDisplay
+{
+    width: 145px;
+    height: 280px;
+    padding: 15px;
+    position: relative;
+}
+
+#drugiDisplay
+{
+    width: 145px;
+    height: 280px;
+    padding: 15px;
+    position: relative;
+}
+
+#kockice
+{
+    position: relative;
+    width: 20px;
+    height: 280px;
+}
+
+#kockica1
+{
+    position: absolute;
+    top: 140px;
+    left: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+#kockica2
+{
+    position: absolute;
+    top: 160px;
+    right: 4px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+#treciDisplay
+{
+    width: 145px;
+    height: 280px;
+    padding: 15px;
+    position: relative;
+}
+
+#cetvrtiDisplay
+{
+    width: 145px;
+    height: 280px;
+    padding: 15px;
+    position: relative;
+}
+
+#prvi1
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+#drugi1
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 82px;
+    left: -43px;
+}
+
+#treci1
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 83px;
+    left: 93px;
+}
+
+#cetvrti1
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#peti1
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: -43px;
+}
+
+#sesti1
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: 93px;
+}
+
+#sedmi1
+{
+    
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 284px;
+    left: 25px;
+}
+
+#prvi2
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+#drugi2
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 82px;
+    left: -43px;
+}
+
+#treci2
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 83px;
+    left: 93px;
+}
+
+#cetvrti2
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#peti2
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: -43px;
+}
+
+#sesti2
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: 93px;
+}
+
+#sedmi2
+{
+    
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 284px;
+    left: 25px;
+}
+
+#prvi3
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+#drugi3
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 82px;
+    left: -43px;
+}
+
+#treci3
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 83px;
+    left: 93px;
+}
+
+#cetvrti3
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#peti3
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: -43px;
+}
+
+#sesti3
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: 93px;
+}
+
+#sedmi3
+{
+    
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 284px;
+    left: 25px;
+}
+
+#prvi4
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+#drugi4
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 82px;
+    left: -43px;
+}
+
+#treci4
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 83px;
+    left: 93px;
+}
+
+#cetvrti4
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#peti4
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: -43px;
+}
+
+#sesti4
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: 93px;
+}
+
+#sedmi4
+{
+    
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 284px;
+    left: 25px;
+}
+
+#prvi5
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+#drugi5
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 82px;
+    left: -43px;
+}
+
+#treci5
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 83px;
+    left: 93px;
+}
+
+#cetvrti5
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#peti5
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: -43px;
+}
+
+#sesti5
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: 93px;
+}
+
+#sedmi5
+{
+    
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 284px;
+    left: 25px;
+}
+
+#prvi6
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+#drugi6
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 82px;
+    left: -43px;
+}
+
+#treci6
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 83px;
+    left: 93px;
+}
+
+#cetvrti6
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#peti6
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: -43px;
+}
+
+#sesti6
+{
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 217px;
+    left: 93px;
+}
+
+#sedmi6
+{
+    
+    border-radius: 10px;
+    width: 125px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 284px;
+    left: 25px;
+}
+
+#prviMiniDisplay
+{
+    position: relative;
+    width: 70px;
+    height: 280px;
+    padding: 15px 2.5px 15px 2.5px;
+}
+
+#drugiMiniDisplay
+{
+    position: relative;
+    width: 70px;
+    height: 280px;
+    padding: 15px 15px 15px 2.5px;
+}
+
+#prvi7
+{
+    position: absolute;
+    top: 260px;
+    left: -5px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+
+#drugi7
+{
+    position: absolute;
+    top: 218px;
+    left: -5px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+
+#treci7
+{
+    position: absolute;
+    top: 193px;
+    left: 19px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#cetvrti7
+{
+    position: absolute;
+    top: 218px;
+    left: 44px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+
+#peti7
+{
+    position: absolute;
+    top: 260px;
+    left: 44px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+
+#sesti7
+{
+    position: absolute;
+    top: 286px;
+    left: 20px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#sedmi7
+{
+    position: absolute;
+    top: 239px;
+    left: 20px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#prvi8
+{
+    position: absolute;
+    top: 260px;
+    left: -5px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+
+#drugi8
+{
+    position: absolute;
+    top: 218px;
+    left: -5px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+
+#treci8
+{
+    position: absolute;
+    top: 193px;
+    left: 19px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#cetvrti8
+{
+    position: absolute;
+    top: 218px;
+    left: 44px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+
+#peti8
+{
+    position: absolute;
+    top: 260px;
+    left: 44px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+
+#sesti8
+{
+    position: absolute;
+    top: 286px;
+    left: 20px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#sedmi8
+{
+    position: absolute;
+    top: 239px;
+    left: 20px;
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+p
+{
+    margin: 0px;
+    color: red;
+    width: fit-content;
+    position: absolute;
+    top: 143px;
+    right: 38px;
+    font-size: 20px;
+}
+
+#sporedno
+{
+    display: flex;
+    filter: brightness(1);
+}
+
+#kocka
+{
+    position: absolute;
+    width: 163px;
+    height: 25px;
+    background-color: black;
+    left: 1081px;
+    top: 142px;
+    transition: 2s;
+}
