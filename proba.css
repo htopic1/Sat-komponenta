@@ -779,7 +779,17 @@ p
     width: 163px;
     height: 25px;
     background-color: black;
-    left: 1081px;
+    right: 8px;
     top: 142px;
     transition: 2s;
+}
+
+#kvadratic
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: red;
+    width: 10px;
+    height: 10px;
 }

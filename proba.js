@@ -1,6 +1,7 @@
 var OnOff="Off"
-var interval;
+var interval
 var promjena2=false
+var kvadratic
 
 function crtanje(imeID,broj)
 {
@@ -123,6 +124,12 @@ function nule()
     document.getElementById("peti8").style.display="block"
     document.getElementById("sesti8").style.display="block"
     document.getElementById("sedmi8").style.display="block"
+    document.getElementById('sedmi8').style.transform="rotate(0deg)"
+    document.getElementById('sedmi8').style.top="193px"
+    document.getElementById('sedmi8').style.left="19px"
+    document.getElementById('treci8').style.transform="rotate(0deg)"
+    document.getElementById('treci8').style.top="239px"
+    document.getElementById('treci8').style.left="20px"
 }
 
 function crtanjeA()
@@ -144,7 +151,13 @@ function crtanjeM()
     document.getElementById("cetvrti8").style.display="block";
     document.getElementById("peti8").style.display="block"
     document.getElementById("sesti8").style.display="none"
-    document.getElementById("sedmi8").style.display="none"
+    document.getElementById("sedmi8").style.display="block"
+    document.getElementById('sedmi8').style.transform="rotate(135deg)"
+    document.getElementById('sedmi8').style.top="206px"
+    document.getElementById('sedmi8').style.left="32px"
+    document.getElementById('treci8').style.transform="rotate(45deg)"
+    document.getElementById('treci8').style.top="206px"
+    document.getElementById('treci8').style.left="7px"
 }
 
 function crtanjeP()
@@ -167,6 +180,13 @@ function iskljuciUkljuci()
 
     if(OnOff=="On")
     {
+        kvadratic=setInterval(function()
+        {
+            if(document.getElementById("kvadratic").style.backgroundColor=="red")
+            document.getElementById("kvadratic").style.backgroundColor="black"
+            else
+            document.getElementById("kvadratic").style.backgroundColor="red"
+        },500)
         document.getElementById("kocka").style.width="25px"
         odrSMS()
     }
@@ -178,6 +198,8 @@ function iskljuciUkljuci()
         document.getElementById("sviDisplay-i").style.transition="1s"
         document.getElementById("sviDisplay-i").style.filter="brightness(0.5)"
         clearInterval(interval)
+        clearInterval(kvadratic)
+        document.getElementById('kvadratic').style.backgroundColor="red"
         crtanje("1",8)
         crtanje("2",8)
         crtanje("3",8)
@@ -201,7 +223,9 @@ function odrSMS()
         var minute=datum.getMinutes();
         var sati=datum.getHours();
         if(promjena2==true && sati>=12)
-        sati=sati-12;
+        {
+            sati=sati-12;
+        }
         
         var prvaSekunda=sekunde%10;
         sekunde=(sekunde-prvaSekunda)/10;
@@ -222,39 +246,56 @@ function odrSMS()
         crtanje("5",drugaSekunda)
         crtanje("6",prvaSekunda)
 
+        var noviDatum=new Date()
+        var sat=noviDatum.getHours();
+        if(sat>=12 && promjena2==true)
+        {
+            crtanjeP()
+            crtanjeM()
+        }
+        else if(sat<12 && promjena2==true)
+        {
+            crtanjeA()
+            crtanjeM()
+        }
+
     },1000)
 }
 
 function promjena()
 {
-    clearInterval(interval)
-    if(promjena2==false)
-    promjena2=true
-    else
+    if(OnOff=="On")
     {
-        nule()
-        promjena2=false;
+        clearInterval(interval)
+        if(promjena2==false)
+        promjena2=true
+        else
+        {
+            nule()
+            promjena2=false;
+        }
+        
+        if(document.getElementById('tekst').innerHTML=='<b>Format: 24</b>')
+        document.getElementById('tekst').innerHTML='<b>Format: 12</b>'
+        else
+        document.getElementById('tekst').innerHTML='<b>Format: 24</b>'
+        
+        var noviDatum=new Date()
+        var sat=noviDatum.getHours();
+        if(sat>=12 && promjena2==true)
+        {
+            crtanjeP()
+            crtanjeM()
+        }
+        else if(sat<12 && promjena2==true)
+        {
+            crtanjeA()
+            crtanjeM()
+        }
+        
+        odrSMS()
     }
     
-    if(document.getElementById('tekst').innerHTML=='<b>Format: 24</b>')
-    document.getElementById('tekst').innerHTML='<b>Format: 12</b>'
-    else
-    document.getElementById('tekst').innerHTML='<b>Format: 24</b>'
-    
-    var noviDatum=new Date()
-    var sat=noviDatum.getHours();
-    if(sat>=12 && promjena2==true)
-    {
-        crtanjeP()
-        crtanjeM()
-    }
-    else if(sat<12 && promjena2==true)
-    {
-        crtanjeA()
-        crtanjeM()
-    }
-    
-    odrSMS()
 }
-     
+
 
