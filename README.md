@@ -2,4 +2,4 @@
 
 Prikaz trenutnog vremena uradjenog preko DOM HTML.<br>
 Izgleda ovako:
-<img src:"">
+<img src="clock.png">
