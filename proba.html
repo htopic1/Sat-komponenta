@@ -2,8 +2,11 @@
     <head>
         <link rel="stylesheet" href="proba.css">
         <script src="proba.js"></script>
+        <script src="https://use.fontawesome.com/8e8e87c1a9.js"></script>
+        <meta charset="UTF-8">
     </head>
-    <body>
+    <body onload="loading()">
+        <div id="loading2">
         <div id="glavni">
             <div id="sviDisplay-i">
                 <div id="kvadratic"></div>
@@ -104,6 +107,14 @@
                 <button onclick="iskljuciUkljuci()">ON/OFF</button>
                 <button onclick="promjena()">12h - 24h</button>
             </div>
+            <br>
+            <div id="kaoReklama">
+                <p id="prvi" onmouseout="kreni()" onmouseover="zaustavi()"><b>Made by: HARIS TOPIĆ&nbsp</b><a href="http://www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></p>
+                <p id="drugi" onmouseout="kreni()" onmouseover="zaustavi()"><b>Made by: HARIS TOPIĆ&nbsp</b><a href="https://www.facebook.com/haris.topic.1"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></p>
+                <div id="gradiend1"></div>
+                <div id="gradiend2"></div>
+            </div>
+        </div>
         </div>
     </body>
 </html>

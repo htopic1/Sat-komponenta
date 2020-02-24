@@ -1,8 +1,26 @@
+html
+{
+    background-color: black;
+}
+
+body
+{
+    margin: 0;
+}
+
+#loading2
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: opacity(0);
+}
+
 #glavni
 {
+    padding-top: 10px;
     height: fit-content;
     width: fit-content;
-    justify-content: center;
     margin: auto;
 }
 
@@ -11,24 +29,26 @@
     width: fit-content;
     height: fit-content;
     margin: auto;
+    padding: 10px;
+    border: 3px solid red
 }
 
 button
 {
-    color: white;
     background-color: black;
     outline: none;
-    border: 1px solid black;
+    border: 1px solid white;
+    color: white;
     cursor: pointer;
 }
 
 #sviDisplay-i
 {
+    border: 3px solid red;
     position: relative;
     display: flex;
     width: fit-content;
     height: fit-content;
-    border: 1px solid black;
     background-color: black;
     filter: brightness(0.5);
 }
@@ -756,7 +776,7 @@ button
     border-radius: 10px;
 }
 
-p
+#sviDisplay-i p
 {
     margin: 0px;
     color: red;
@@ -792,4 +812,72 @@ p
     background-color: red;
     width: 10px;
     height: 10px;
+}
+
+#kaoReklama
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+#prvi 
+{
+    position: relative;
+    bottom: 1px;
+    text-align: center;
+    width: 100%;
+    color: red;
+    padding-top: 11px;
+    margin: 0;
+    animation: 10s linear infinite running reverse animacija1;
+}
+
+#drugi
+{
+    position: relative;
+    bottom: 30px;
+    right: -1254px;
+    width: 100%;
+    text-align: center;
+    color: red;
+    margin: 0;
+    padding-top: 11px;
+    animation: 10s linear infinite running reverse animacija2;
+}
+
+@keyframes animacija1
+{
+    0% {right: 1254px}
+    100% {right: 0}
+}
+
+@keyframes animacija2
+{
+    0% {right: 0px}
+    100% {right: -1254}
+}
+
+#gradiend1
+{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 80%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 100%;
+}
+
+#gradiend2
+{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 20%, rgba(0,0,0,1) 75%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 100%;
 }

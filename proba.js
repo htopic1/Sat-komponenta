@@ -3,6 +3,17 @@ var interval
 var promjena2=false
 var kvadratic
 
+function loading()
+{
+    var interval2=setTimeout(function()
+    {
+        document.getElementById("loading2").style.transition="2s"
+        document.getElementById("loading2").style.filter="opacity(1)"
+
+    },5000);
+    clearTimeout=interval2;
+}
+
 function crtanje(imeID,broj)
 {
     if(broj==0)
@@ -298,4 +309,14 @@ function promjena()
     
 }
 
+function zaustavi()
+{
+    document.getElementById('prvi').style.animationPlayState="paused"
+    document.getElementById('drugi').style.animationPlayState="paused"
+}
 
+function kreni()
+{
+    document.getElementById('prvi').style.animationPlayState="running"
+    document.getElementById('drugi').style.animationPlayState="running"
+}
